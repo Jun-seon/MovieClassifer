@@ -2,7 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="4a488502-74ce-4405-ba51-3b1562a1a01b" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/movie_data.csv" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/app.py" afterPath="$PROJECT_DIR$/app.py" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -18,14 +18,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="app.py" pinned="false" current-in-tab="false">
+      <file leaf-file-name="app.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-852">
-              <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
+            <state relative-caret-position="46">
+              <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
               <folding>
-                <element signature="e#0#49#0" expanded="true" />
-                <marker date="1502601173800" expanded="true" signature="883:969" ph="INSERT INTO review_db... " />
+                <marker date="1502604723379" expanded="true" signature="956:1042" ph="INSERT INTO review_db... " />
               </folding>
             </state>
           </provider>
@@ -43,17 +42,30 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="make_db.py" pinned="false" current-in-tab="true">
+      <file leaf-file-name="make_db.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/make_db.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="413">
-              <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+            <state relative-caret-position="299">
+              <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
               <folding>
                 <element signature="e#0#14#0" expanded="true" />
                 <marker date="1502603485955" expanded="true" signature="100:166" ph="CREATE TABLE... review_db" />
                 <marker date="1502603485955" expanded="true" signature="212:290" ph="INSERT INTO review_db... " />
                 <marker date="1502603485955" expanded="true" signature="355:433" ph="INSERT INTO review_db... " />
                 <marker date="1502603485955" expanded="true" signature="555:639" ph="SELECT * FRO... review_db" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="update.py" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/update.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="989">
+              <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+              <folding>
+                <element signature="e#0#13#0" expanded="true" />
+                <marker date="1502604662190" expanded="true" signature="256:279" ph="SELECT * fro... review_db" />
               </folding>
             </state>
           </provider>
@@ -129,7 +141,6 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/app.p7.py" />
-        <option value="$PROJECT_DIR$/app.py" />
         <option value="$PROJECT_DIR$/static/style.css" />
         <option value="$PROJECT_DIR$/vectorizer.py" />
         <option value="$PROJECT_DIR$/templates/_formhelpers.html" />
@@ -138,6 +149,8 @@
         <option value="$PROJECT_DIR$/templates/thanks.html" />
         <option value="$PROJECT_DIR$/temp.py" />
         <option value="$PROJECT_DIR$/make_db.py" />
+        <option value="$PROJECT_DIR$/update.py" />
+        <option value="$PROJECT_DIR$/app.py" />
       </list>
     </option>
   </component>
@@ -402,27 +415,37 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/app.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-852">
-          <caret line="21" column="34" lean-forward="true" selection-start-line="21" selection-start-column="34" selection-end-line="21" selection-end-column="34" />
-          <folding>
-            <element signature="e#0#49#0" expanded="true" />
-            <marker date="1502601173800" expanded="true" signature="883:969" ph="INSERT INTO review_db... " />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/make_db.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="413">
-          <caret line="26" column="14" lean-forward="true" selection-start-line="26" selection-start-column="14" selection-end-line="26" selection-end-column="14" />
+        <state relative-caret-position="299">
+          <caret line="13" column="0" lean-forward="true" selection-start-line="13" selection-start-column="0" selection-end-line="13" selection-end-column="0" />
           <folding>
             <element signature="e#0#14#0" expanded="true" />
             <marker date="1502603485955" expanded="true" signature="100:166" ph="CREATE TABLE... review_db" />
             <marker date="1502603485955" expanded="true" signature="212:290" ph="INSERT INTO review_db... " />
             <marker date="1502603485955" expanded="true" signature="355:433" ph="INSERT INTO review_db... " />
             <marker date="1502603485955" expanded="true" signature="555:639" ph="SELECT * FRO... review_db" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/update.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="989">
+          <caret line="43" column="27" lean-forward="false" selection-start-line="43" selection-start-column="27" selection-end-line="43" selection-end-column="27" />
+          <folding>
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1502604662190" expanded="true" signature="256:279" ph="SELECT * fro... review_db" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/app.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="46">
+          <caret line="2" column="13" lean-forward="true" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+          <folding>
+            <marker date="1502604723379" expanded="true" signature="956:1042" ph="INSERT INTO review_db... " />
           </folding>
         </state>
       </provider>

@@ -77,5 +77,5 @@ def feedback():
     return render_template('thanks.html')
 
 if __name__ == '__main__':
-    update_model(filepath=db, model=clf, batch_size=10000)
+    update_model(db_path=db, model=clf, batch_size=10000)
     app.run(debug=True)
